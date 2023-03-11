@@ -9,7 +9,7 @@ import java.util.concurrent.Executors;
 
 public class HttpServerConfig implements CustomHttpServer {
   private HttpServer server;
-  private static final int DEFAULT_CUSTOM_THREAD_POOL = 2;
+  private static final int DEFAULT_CUSTOM_THREAD_POOL = 1;
   private Executor executor;
 
   @Override
